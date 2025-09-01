@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Acara 2 | Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Sleman</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Deskripsi">Deskripsi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Penduduk">Penduduk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Kecamatan">Kecamatan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Website">Website</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#FotoVideo">Gambar</a>
+        </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+    <main class="container mt-3">
+    <!-- judul -->
+    <div class="alert alert-success" role="alert">
+        <h3>Kabupaten Sleman</h3>
+        <h6>Daerah Istimewa Yogyakarta</h6>
+    </div>
+
+    <!-- deskripsi -->
+     <div class="card" id="Deskripsi">
+        <div class="card-header">
+            Deskripsi
+        </div>
+        <div class="card-body">
+            <p class="card-text">Sleman adalah sebuah wilayah kabupaten yang terletak di Provinsi Daerah Istimewa Yogyakarta, Indonesia. Ibu kotanya adalah Kapanéwon Sleman. Sleman dikenal sebagai asal buah salak pondoh. Pada pertengahan tahun 2024, jumlah penduduk Sleman sebanyak 1.118.353 jiwa.</p>
+            <p class="card-text">Kabupaten ini berbatasan dengan Provinsi Jawa Tengah (Kabupaten Magelang, Kabupaten Boyolali, dan Kabupaten Klaten) di utara dan timur, Kabupaten Gunungkidul, Kabupaten Bantul, dan Kota Yogyakarta di selatan, serta Kabupaten Kulon Progo di barat; di mana hal itu menjadikan Sleman sebagai satu-satunya kabupaten di DIY yang tidak memiliki pantai.</p>
+        </div>
+    </div>
+
+    <!-- jumlah penduduk -->
+     <div class="card mt-2" id="Penduduk">
+        <div class="card-header">
+            Penduduk
+        </div>
+        <div class="card-body">
+            <table class="table table-striped table-bordered">
+                <tr>
+                    <th>No</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Jumlah</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Laki-laki</td>
+                    <td>583.795 jiwa</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Perempuan</td>
+                    <td>595.587 jiwa</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Total</td>
+                    <td>1.179.382 jiwa</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- kecamatan -->
+     <div class="card mt-2" id="Kecamatan">
+        <div class="card-header">
+            Kecamatan
+        </div>
+        <div class="card-body">
+           <ol>
+            <li>Gamping</li>
+            <li>Godean</li>
+            <li>Moyudan</li>
+            <li>Minggir</li>
+            <li>Seyegan</li>
+            <li>Mlati</li>
+            <li>Depok</li>
+            <li>Berbah</li>
+            <li>Ngaglik</li>
+            <li>Cangkringan</li>
+            <li>Sleman</li>
+            <li>Tempel</li>
+            <li>Turi</li>
+            <li>Pakem</li>
+            <li>Prambanan</li>
+            <li>Kalasan</li>
+        </ol>
+        </div>
+    </div>
+
+    <!-- link website -->
+    <div class="card mt-2" id="Website">
+        <div class="card-header">
+            Website
+        </div>
+        <div class="card-body">
+           <a href="https://slemankab.go.id/" target="_blank" rel="noopener noreferrer" title="Klik untuk membuka Website">Website Pemda Sleman</a>
+        </div>
+    </div>
+
+    <!-- foto dan video -->
+     <div class="card mt-2" id="FotoVideo">
+        <div class="card-header">
+            Foto & Video
+        </div>
+        <div class="card-body">
+           <img src="Images/5-Ciri-Khas-Kabupaten-Sleman-Yogyakarta.png" alt="" height="200px" title="Ciri Khas Kabupaten Sleman">
+           <br>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/Z2wDV5JlInw?si=DRueWnIBEt2TfEtu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
